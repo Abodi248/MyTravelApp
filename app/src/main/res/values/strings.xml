@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyTravelApp</string>
+    <string-array name="currency">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>JPY</item>
+    </string-array>
+    <string-array name="fuelE">
+        <item>Miles per gallon(mpg)</item>
+        <item>Kilometers per liter(kpl)</item>
+    </string-array>
+    <string-array name="Vol">
+        <item>Gallon</item>
+        <item>Liters</item>
+    </string-array>
+    <string-array name="Dist">
+        <item>Kilometers</item>
+        <item>Nautical Miles</item>
+    </string-array>
+    <string-array name="choice">
+        <item>Fuel Efficiency</item>
+        <item>Volume</item>
+        <item>Distance</item>
+    </string-array>
+
+    <string-array name="temp">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>

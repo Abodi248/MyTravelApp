@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Currency">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/backC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:text="back" />
+
+        <TextView
+            android:id="@+id/currencyText"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="227dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/adamina"
+            android:text="Currency"
+            android:textAlignment="textStart"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/adamina"
+            android:text="From:"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/fromCurrency"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="50dp"
+            android:layout_weight="0"
+            android:dropDownWidth="match_parent"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/adamina"
+            android:text="To:"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/toCurrency"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="0"
+            android:dropDownWidth="match_parent"
+            android:spinnerMode="dialog" />
+
+        <EditText
+            android:id="@+id/currencyInput"
+            android:layout_width="219dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="96dp"
+            android:height="50dp"
+            android:ems="10"
+            android:inputType="text"
+            android:backgroundTint="#CCCCCC"
+            android:hint="Enter value..." />
+
+        <TextView
+            android:id="@+id/currencyResult"
+            android:layout_width="191dp"
+            android:layout_height="101dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginEnd="110dp" />
+
+        <Button
+            android:id="@+id/currencyCalculate"
+            android:layout_width="148dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="131dp"
+            android:layout_marginEnd="132dp"
+            android:text="Convert" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
