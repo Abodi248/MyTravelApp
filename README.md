@@ -5,17 +5,17 @@ This project focuses on simplicity, usability and real-world travel needs.
 
 
 **Features**
-Currency Converter:
+/nCurrency Converter:
 Convert between multiple currencies using predefined exchange rates
 
-Fuel Efficiency Converter:
+/nFuel Efficiency Converter:
 Convert between km/L, MPG etc
 
-Liquid Volume Converter:
+/nLiquid Volume Converter:
 Convert between liters, gallons
 
-User-Friendly Interface:
+/nUser-Friendly Interface:
 Clean and minimal UI designed for quick access during travel
 
-Offline Functionality:
+/nOffline Functionality:
 Works without internet using fixed conversion values
